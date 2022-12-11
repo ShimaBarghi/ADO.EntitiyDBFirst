@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>zendegi</title>
+</head>
+<body>
+    <div> 
+        <h1>zengegi</h1>
+        <ul>
+            @foreach(string item in ViewBag.name)
+            {
+                <li>
+                    @item
+                </li>
+
+            }
+        </ul>
+    </div>
+</body>
+</html>
